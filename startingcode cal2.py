@@ -1,11 +1,8 @@
 
+import math
+team_name = "Ben_Shamia_Ian"
 
-#### TASK 1 - ENTER YOUR TEAM NAME AND NUMBER
-team_name = ""
 
-#### TASK 2 - Clone the empty gitHub repo in your local computer (Member #1)
-
-#### TASK 3 - Add this code to your gitHub repo - follow the best practices of add --> commit --> pull --> push
 
 def addition(number1, number2):
   print("We are adding " + str(number1) + " and " + str(number2))
@@ -44,7 +41,6 @@ calculator()
 
 
 def div(num1, num2):
-  print("we are  dividing"+ str(num1) + " and " + str(num2) )
   return num1 / num2
   
 
