@@ -23,7 +23,7 @@ def calculator():
   print("6. Square Root")
   print("7. Exponent")
 
-  choice = int(input("Enter your choice: "))
+ choice = int(input("Enter your choice: "))
 if (choice == 1):
   print("what is the first number you want to add?") 
   num1 = int(input("what is the first number you want to add: "))
@@ -41,18 +41,10 @@ elif (choice == 3):
 
 
 calculator()
-def sub(num1, num2):
-  print("The square root of " + str(number1) + " is " + str(num**0.5))
-  return num1 - num2
 
-def sqrt(num):
-  print("The square root of " + str(number1) + " is " + str(num**0.5))
-  return num**.5
 
 def div(num1, num2):
   print("we are  dividing"+ str(num1) + " and " + str(num2) )
   return num1 / num2
   
-def mult(num1, num2):
-  print("we are  multiplying" + str(number1) + " and " + str(number2) )
-  return num1 * num2
+
